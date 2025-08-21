@@ -1,0 +1,34 @@
+DAY 3
+INHERITANCE
+Start
+define class Order{
+	ATTRIBUTE id
+	ATTRIBUTE order_number
+CONSTRUCTOR(id,order_number){
+	SET this.id=id
+	SET order_number=order_number
+}
+}
+
+define class Customer extends Order{
+	ATTRIBUTE name
+CONStRUCTOR Customer(id,order_number,name){
+	super(id,order_number)
+	this.name=name
+}	
+}
+define class Restaurant extends Order{
+	ATTRIBUTE restautant_name
+CONSTRUCTOR Restaurant(id,order_number,restaurant_name){
+	super(id,order_number)
+	this.restaurant_name=restaurant_name
+}
+}
+define class DeliveryBoy extends Order{
+	ATTRIBUTE name
+CONStRUCTOR DeliveryBoy(id,order_number,name){
+	super(id,order_number)
+	this.name=name
+}	
+}
+END

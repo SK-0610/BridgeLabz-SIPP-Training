@@ -1,0 +1,22 @@
+DAY 1.1
+start
+class Pet {
+    private int age;
+    private String color;
+    private String breed;
+
+    public Pet(int age, String color, String breed) {
+        this.age = age;
+        this.color = color;
+        this.breed = breed;
+    }
+
+    public static void main(String args[]){
+        Dog obj1=new Pet(12,"Black","dog");
+        Dog obj2=new Pet(12,"Black","dog");
+        System.out.println(obj1);
+        System.out.println(obj2);
+        System.out.print(obj1.equals(obj2));
+    }
+}
+end

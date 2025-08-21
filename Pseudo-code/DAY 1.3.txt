@@ -1,0 +1,27 @@
+DAY 1.3
+INHERITANCE
+Start
+define class Pet{
+	ATTRIBUTE NAME
+	ATTRIBUTE COLOR
+	ATTRIBUTE AGE
+CONSTRUCTOR(name,color,breed,age){
+	SET this.name=name
+	SET this.age=age
+	SET this.color=color
+}
+}
+
+define class Dog extends Pet{
+	ATTRIBUTE breed
+	ATTRIBUTE color	
+}
+define class Cat extends Pet{
+	ATTRIBUTE breed
+	ATTRIBUTE color	
+}
+define class Bird extends Pet{
+	ATTRIBUTE breed
+	ATTRIBUTE color	
+}
+END
