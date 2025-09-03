@@ -1,0 +1,34 @@
+DAY~1
+Start
+define class Pet{
+    ATTRIBUTE name
+    ATTRIBUTE age
+    ATTRIBUTE colour
+
+    CONSTRUCTOR(name, age, colour){
+        SET this.name = name
+        SET this.age = age
+        SET this.colour = colour
+    }
+}
+
+define class Dog extends Pet{
+    ATTRIBUTE breed
+    ATTRIBUTE colour
+}
+
+define class Cat extends Pet{
+    ATTRIBUTE breed
+    ATTRIBUTE colour
+}
+
+
+
+
+
+
+define class Bird extends Pet{
+    ATTRIBUTE breed
+    ATTRIBUTE colour
+}
+end

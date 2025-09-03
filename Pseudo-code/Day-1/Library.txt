@@ -1,0 +1,23 @@
+DAY 1.2
+Start
+define class Member{
+	ATTRIBUTE name
+	ATTRIBUTE id
+	ATTRIBUTE expirydate
+	ATTRIBUTE currentdate
+CONSTRUCTOR(name,id,date){
+	SET this.name=name
+	SET this.id=id
+	SET this.date=date
+	SET this.currendate=currentdate
+	SET this.expirydate=expirydate
+}
+METHOD CheckValidity(id,currentdate,expirydate){
+	Check IF currentdate > = expirydate
+		PRINT Invalid
+	ELSE 
+		PRINT Valid
+	}
+}
+
+end
